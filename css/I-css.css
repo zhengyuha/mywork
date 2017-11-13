@@ -1,0 +1,111 @@
+*{padding: 0;margin: 0;}
+body{font:12px/1.5 "宋体";}
+a{text-decoration: none;color:#000}
+li{list-style: none;}
+img{border:none;vertical-align:bottom;}
+.clearfix:after{content: "\200b";display: block;height: 0;clear: both;}
+.clearfix{*zoom: 1;}
+.fl{float: left;}
+.fr{float: right;}
+/*公共样式*/
+.wrapper{width: 1005px;margin:0  auto;}
+/*头部*/
+.top{height: 40px;background-color: #eaeaea;}
+.top p{line-height: 40px;color: #686767;}
+
+.radius{line-height: 38px;color: #686767;width:230px;height:26px;border-radius: 20px;background: #fff;margin-top: 7px;position: relative;}
+.radius p{margin: 0 10px;margin-top: -5px;}
+.radius img{ position:absolute ;top: 4px;right: 30px;}
+/*banner*/
+.banner{margin-top: 1px;}
+/*<!--导航条-->*/
+.nav{height: 50px;background-color: #007dff;margin-top: 4px;}
+.nav li{display: inline-block;margin-top: 15px; margin-right:20px;}
+.nav ul{margin-left: 20px;}
+.nav li a{color: #FFFFFF;font-size: 16px;}
+
+.bannerr{margin-top: 4px;margin-bottom: 15px;}
+
+/*正文*/
+
+
+     /*水利要闻*/
+.first img{ padding: 15px 11px;border: 1px solid #ccc;}
+.two{ width: 390px; height: 315px;background-color: #f9eeee;margin-left:20px;border: 1px solid #ccc;}
+.news{ width: 100px; height: 40px; background-color: #2091de;}
+.news p{ font-size: 16px; color: #fff;text-align: center;line-height: 40px;}
+
+.big{ border-bottom: 1px solid #ccc;position: relative;}
+
+.jia img{position: absolute;top: 20px;right:40px;float: left;}
+.jia a{position: absolute;top: 13px;right: 10px;color:#2091de ;}
+
+.new li{margin: 15px 0;}
+.new em{float: right;margin-right: 10px;font-style: normal;color:darkgray;}
+.new a{margin-left: 10px;}
+.new img{margin-left: 8px; margin-top: 6px;}
+   /*通知公告*/
+.three{ width: 217px; height: 315px;background-color: #f9eeee;margin-left: 19px;border: 1px solid #ccc;}
+.big1{background: url(../images/I-tzbg.jpg);position: relative}
+.news1,.news2 {height: 40px;}
+.news1 p{font-size: 16px; color: #fff;line-height: 40px;margin-left: 10px;}
+.news1 a{color: #fff;font-size: 14px;margin-right: 10px;float: right;}
+.jia1 p{position: absolute;top: 5px;right:10px;}
+.jia1 p a{ color: #fff;position: absolute;}
+       /*组织机构*/
+.down img{ margin: 10px 0;}
+.four{width: 217px; height: 100px;background-color: #f9eeee;margin-left: 19px;border: 1px solid #ccc;margin-top: 10px;}
+.news2 img{margin: 10px;float: left;}
+.zuzhi p{font-size: 16px; color: #fff;line-height: 40px;margin-left: 10px;}
+.zuzhi a{font-size: 14px;float: right;color: #A9A9A9;margin-right: 10px;}
+.new1 li{display:inline-block;margin: 5px 5px;}
+
+       /*信访通道*/
+  .five{float: left;width: 352px; height: 315px;background-color: #f9eeee;border: 1px solid #ccc;margin-top: 15px;}
+  .fen{ background: url(../images/I-xingfang.jpg) no-repeat; height: 40px;}   
+  .fen p{font-size: 16px;line-height: 40px; color: #fff;margin-left: 20px;}
+  .fendown li{margin: 9px 5px;}
+  .fendown ul{margin-left: 6px;}
+.fendown li a{font-size: 14px;}
+         /*行政审批*/
+ .six{width: 390px;height: 315px; background-color: #f9eeee;border: 1px solid #ccc;margin-top: 15px;}       
+.six{margin-left:18px ;}
+.shenp li{margin: 9px 5px;}
+.shenp ul{margin-left: 12px;}
+.shenp,.shenpp li a{font-size: 14px;margin-left: px;}
+.shenp img{margin: 6px; }
+
+
+/*媒体关注*/
+.senver{width: 222px;height: 315px;margin-left: 17px;border: 1px solid #ccc;margin-top: 15px; }
+.shenpp li{margin: 6px 5px;}
+.shenpp ul{margin-left: 10px;}
+.shenpp img{margin: 4px;}
+
+
+/*水利图展*/
+.shli{ background: url(../images/I-slyz-bg.jpg);width: 1005px; height: 45px;margin: 15px 0;}
+.mm  img{margin-top: 18px; margin-left: 40px;float: left;margin-right: 20px;}
+.mm p{font-size: 16px;line-height: 45px; color: #fff;}
+.mm a{float: right;margin-right: 30px;font-size: 14px; color: #fff;}
+.tp li{ display: inline-block;height: 130px;margin: 10px 5px;background-color: #EAEAEA;border: 1px solid #ccc; }
+.tp ul{float: left;}
+.tp p a{color: darkcyan;}
+.tp p{ margin: 8px 45px;}
+
+
+       /*友情链接*/
+      .box{height: 100px; background-color: #d7edf5;width: 1005px;margin-top: 1000px;margin-bottom: 15px; position: relative;}
+          .youq {background: url(../images/I-yqlj.jpg) no-repeat;width: 42px; height: 72px;position: absolute;top: 15px;left: 30px;font-size: 14px;}
+    .youq p{margin: 5px ;color:#38a7cf ;} 
+.navv li{display: inline-block;margin:15px;}
+.navv ul{margin-left: 70px;}
+.navv li a{color: #38a7cf;}
+
+
+
+/*版权*/
+
+.footer{background: url(../images/I-bq.jpg); height: 150px;width: 1005px;margin-bottom: 15px;}
+.footer .ll{margin-left: 450px;font-size: 14px;padding-top: 20px;}
+.footer p{margin-left: 300px;font-size: 14px;line-height: 30px;color: #414141;}
